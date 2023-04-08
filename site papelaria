@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Site papelaria</title>
+    <link rel="stylesheet" href="tabelacss.css" type="text/css">
+    
+</head>
+
+<body id="foto"> 
+    <ul id="menu">
+        <li> <a href="papelariatabela.html" target="_blank"> Tabela de preços </a> </li>
+        <li>  <a href="cadastropapelaria.html" target="_blank"> Se cadastre</a> </li>
+    </ul>
+    <div>
+        <center>
+            <div id="textob"> <h1>Papelaria Mamaco King</h1> </br>
+                <p> Todos os produtos em nossa da nossa papelaria estão com desconto</p>
+                <p><h3> APROVEITEM AS OFERTAS</h3> </p>
+            </div>
+        </center>
+    </div>
+</body>
+  
+
+</form>
+</html>
