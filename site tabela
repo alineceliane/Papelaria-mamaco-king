@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <style> 
+        body {background-image: url(fundo.avif); }
+        body{background-color: rgb(240, 228, 253);  
+        }
+    </style>
+<head>
+    <meta charset="UTF-8" />
+    <title>Papelaria Mamaco King</title>
+    <link rel="stylesheet" href="tabelacss.css" type="text/css">
+</head>
+<body> 
+    <center>
+    <h1 id="tabela"> Queima de estoque </h1>
+
+    <table>
+        <tr> 
+            <td colspan="5" width="50%" >Mamaco king papelaria  </td>
+        </tr>
+    
+        <tr> 
+    
+            <th> Foto do item </th>
+            <th> Nome do item </th>
+            <th> Quantidade em estoque </th>
+            <th> Preço normal </th>
+            <th> Preço promocional </th>
+            
+        </tr>
+    
+        <tr> 
+            <td class="cimg"> <img src="postit.png" alt=""  style="height: 60px;" >  </td>
+            <td> Postit</td>
+            <td> 50 </td>
+            <td> 2,50 R$</td>
+            <td> 2,00 R$</td>
+    
+        </tr>
+           
+    
+        <tr> 
+            <td class="cimg"> <img src="lapis.png" alt=""  style="height: 60px;" >  </td>
+            <td> Marca texto Stabilo</td>
+            <td> 20</td>
+            <td> 69,90 R$</td>
+            <td> 68,00 R$</td>
+        </tr>
+    
+        <tr>
+            <td class="cimg"> <img src="mochila.png" alt=""  style="height: 60px;" >  </td>
+            <td>Mochila</td>
+            <td> 15</td>
+            <td> 110,00 R$</td>
+            <td> 100 R$ R$</td>
+        </tr>
+    
+        <tr>
+            <td class="cimg"> <img src="bolsinha.jpeg" alt=""  style="height: 60px;" >  </td>
+            <td>Bolsinha de Lapis</td>
+            <td> 15</td>
+            <td> 25,00 R$</td>
+            <td> 20 R$ R$</td>
+        </tr>
+    
+        <tr>
+            <td class="cimg"> <img src="caderno.jpg" alt=""  style="height: 60px;" >  </td>
+            <td>Caderno Inteligente</td>
+            <td> 30</td>
+            <td> 129,34 R$</td>
+            <td> 124,34 R$ R$</td>
+        </tr>
+    
+        
+</center>
+    </table>
+
+
+    
+</body>
+
+<ul id="menu">
+    <li> <a href="papelariatabela.html" target="_blank"> Pagina inicial </a> </li>
+    <li>  <a href="cadastropapelaria.html" target="_blank"> Se cadastre</a> </li>
+</ul>
+
+</html>
