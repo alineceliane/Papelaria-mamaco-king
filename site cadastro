@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <style>
+         #imgbody{background-image: url(papel.jpg) 
+        } 
+
+     </style>
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="tabelacss.css" type="text/css">
+</head>
+<body id="imgbody"> 
+    
+    
+</body >
+
+<form>
+    <center>
+        <h1>Se cadastre na nossa papelaria</h1>
+    </center>
+    <div id="divblock">
+
+        <b> 
+            <label for="Nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite o seu nome"></br></br>
+        
+            <label for="nasc">Data de Nascimento</label><br/>
+            <input type="date" name="nasc" id="nasc"><br/></br>
+        
+            <label for="Email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Digite o seu email"></br></br>
+        
+            <label for="Endereço">Endereço</label>
+            <input type="text" name="enderço" id="endereço" placeholder="Digite o seu endereço"></br></br>
+        
+            <label for="estado" > Selecione seu estado </label> </br>
+            <select name="estado" id="estado" >
+             <option value="null">--Nenhum-- </option> 
+             <option value="AC"> AC </option>  
+             <option value="AL"> AL </option>  
+             <option value="AP"> AP </option>  
+             <option value="AM"> AM </option>  
+             <option value="BA"> BA </option>  
+             <option value="RN"> RN </option>  
+             <option value="PB"> PB </option>  
+             
+            </select> </br></br>
+        
+            <label for="CPF"> CPF</label>
+            <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF"></br></br>
+        
+            <label for="senha">Senha</label><br/>
+            <Input type="password" placeh></br></br>
+            
+            
+        
+            <input type="button" value="Enviar" >
+        </b>
+    </div>
+ </form>
+
+ <ul id="rodape">
+    <li> <a href="papelariatabela.html" target="_blank"> Tabela de preços </a> </li>
+    <li>  <a href="cadastropapelaria.html" target="_blank"> Pagina inicial</a> </li>
+</ul>
+
+</html>
