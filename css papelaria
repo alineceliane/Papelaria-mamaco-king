@@ -1,0 +1,123 @@
+html{
+    font-family: 'Times New Roman', Times, serif; 
+}        
+#foto{
+  background-image:url(foto.png); 
+  margin-right: 25%;
+  margin-left: 25%; }
+#textob { 
+  background-color: white ;
+  border-radius: 10px;    
+  box-shadow: 5px 5px 10px #584d58;
+  height: 300px;
+}
+#textob{
+  padding-top: 55px;
+  font-family: Courier New, monospace;
+}
+table{
+    border: 2px solid rgb(157, 70, 240);
+    text-align: center;
+    align-items: center;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #7a787a;
+
+}
+tr, td, th{
+    border: 2px solid black;
+   
+}
+td[colspan] {
+    text-align: center;
+    vertical-align: middle;
+  }
+  #tabela{
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: rgb(239, 213, 250);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6e6b6e;
+  }
+
+  #menu{
+    list-style: none;
+    padding: 2%;
+  }
+  #menu li{ 
+    display: inline;
+    
+  }
+  #menu li a{
+    color: rgb(32, 31, 31);
+    display: 20px;
+    display: inline-block ;
+    text-decoration: none;
+    transition: background.6s;
+    padding: 5px 10px 5px 10px;
+
+  }
+  #menu li a:hover{
+    background-color: rgb(240, 199, 250);
+    padding: 5px 10px 5px 10px;
+    box-shadow: 2px 2px 10px #ad82ad;
+    border-radius: 3px;   
+
+  }
+  #divblock{
+    /* padding: 110px 100px 5px 100px; */
+    border-radius: 5px;
+    padding: 20px;
+    /* width: 50%; */
+    background-color: #7bedfc;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #87b2f1;
+  }
+  input[type=text],input[type=date],input[type=password],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=button] {
+    width: 100%;
+    background-color: #0083fd;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=button]:hover {
+    background-color: #045199;
+  }
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #rodape{
+    list-style: none;
+    padding: 2%;
+  }
+  #rodape li{
+    display: inline;
+  }
+  #rodape li a{
+    color: rgb(32, 31, 31);
+    display: 20px;
+    display: inline-block ;
+    text-decoration: none;
+    transition: background.6s;
+    padding: 5px 10px 5px 10px;
+
+  }
+  #rodape li a:hover{
+    background-color: rgb(144, 223, 247);
+    padding: 5px 10px 5px 10px;
+    box-shadow: 2px 2px 10px #7892e6;
+    border-radius: 3px;   
+
+  }
